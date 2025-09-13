@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
-        /* --- General Styling & Variables --- */
+        
         :root {
             --primary-color: #00aaff; /* A vibrant blue */
             --secondary-color: #0077b6; /* A darker blue for hover */
@@ -98,7 +98,7 @@
             transform: translateY(-3px);
         }
 
-        /* --- Header & Navigation --- */
+        
         header {
             position: fixed;
             width: 100%;
@@ -133,7 +133,7 @@
             font-weight: 600;
         }
 
-        /* --- Hero Section --- */
+        
         .hero {
             min-height: 100vh;
             display: flex;
@@ -157,7 +157,7 @@
             color: var(--primary-color);
         }
 
-        /* --- About Section --- */
+       
         .about-container {
             display: flex;
             align-items: center;
@@ -185,7 +185,7 @@
             margin-bottom: 1rem;
         }
 
-        /* --- Skills Section --- */
+      
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -214,7 +214,7 @@
             color: var(--primary-color);
         }
 
-        /* --- Projects Section --- */
+       
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -279,7 +279,7 @@
         }
 
 
-        /* --- Contact Section --- */
+        
         #contact {
             text-align: center;
         }
@@ -305,7 +305,7 @@
             margin-right: 0.5rem;
         }
 
-        /* --- Footer --- */
+        
         footer {
             text-align: center;
             padding: 2rem 5%;
@@ -313,7 +313,7 @@
             margin-top: 2rem;
         }
 
-        /* --- Responsive Design --- */
+       
         @media (max-width: 768px) {
             h1 { font-size: 2.5rem; }
             h2 { font-size: 2rem; }
